@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { GanttComponent } from './gantt/gantt.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    GanttComponent,
+    
   ],
   imports: [
     BrowserModule,
